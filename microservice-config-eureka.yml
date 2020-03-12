@@ -17,7 +17,7 @@ eureka:
     registerWithEureka: false 
     fetchRegistry: false 
     serviceUrl:
-      defaultZone: http://${eureka.instance.hostname}/eureka/
+      defaultZone: http://${eureka.instance.hostname}:6001/eureka/
   server:
     enable-self-preservation: false # 禁用自我保护机制*****************
 ---
